@@ -2,7 +2,7 @@
 
 A python daemon which listens for web requests.
 Using a POST request, the python daemon submits a file with the given name from the attachment directory to the cuckoo sandbox.
-This daemon was specificly written for a slash command in Mattermost. Which could look as follows:
+This daemon was specifically written for a slash command in Mattermost. Which could look as follows:
 
 ```sh
 /cuckoo-submit [sha256 hash]
